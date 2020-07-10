@@ -9,9 +9,9 @@ var assetDirectory = 'img/';
 	sorted slowest →  fastest
 	(fastest at bottom) */
 var assets = [
-	'Cumulus-Mediocris.png',
+	'https://marcotiberio.github.io/img/Altocumulus-Castellanus.png',
 	'cloud.png',
-	'Altocumulus-Castellanus.png',
+	'https://marcotiberio.github.io/img/Altocumulus-Castellanus.png',
 ];
 
 var buyClouds = {
