@@ -3,15 +3,15 @@
 */
 
 // directory where images of Clouds are
-var assetDirectory = 'img/';
+var assetDirectory = 'https://marcotiberio.github.io/buycloud-desktop/img/';
 
 /* all names of cloud image files
 	sorted slowest →  fastest
 	(fastest at bottom) */
 var assets = [
-	'https://marcotiberio.github.io/img/Altocumulus-Castellanus.png',
+	'Cumulus-Mediocris.png',
 	'cloud.png',
-	'https://marcotiberio.github.io/img/Altocumulus-Castellanus.png',
+	'Altocumulus-Castellanus.png',
 ];
 
 var buyClouds = {
