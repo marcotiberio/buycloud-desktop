@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>☁️ Buy Clouds</title>
+	<style>
+		/* basic reset */
+		html, body, canvas {
+			box-sizing: border-box;
+			margin: 0; padding: 0;
+			background-color: black;
+		}
+		/* you'll need to define a width && height to make it work */
+		#p5 { 
+			display: block;
+			margin: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 740px;
+			height: 440px;
+		}
+
+		header img {
+			width: auto;
+			height: 10vh;
+			margin: 2%; padding: 0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="logos/buycloud-logo.png" alt="buycloud logo">
+	</header>
+	<div id="p5"><!-- This div is the container in which P5.js will place a canvas element --></div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+	<!-- <script src="js/clouds.js"></script> Choose either .js file -->
+	<script src="js/clouds.velocity.js"></script>
+</body>
+</html>
