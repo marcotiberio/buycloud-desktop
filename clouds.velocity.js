@@ -3,7 +3,7 @@
 */
 
 // directory where images of Clouds are
-var assetDirectory = '../img/';
+var assetDirectory = 'img/';
 
 /* all names of cloud image files
 	sorted slowest →  fastest
